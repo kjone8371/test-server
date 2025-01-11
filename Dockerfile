@@ -4,7 +4,7 @@ LABEL authors="jeongwonkim"
 ENTRYPOINT ["top", "-b"]
 
 
-FROM openjdk:17-alpine
+FROM openjdk:17-jdk-slim
 VOLUME /tmp
 EXPOSE 8080
 
